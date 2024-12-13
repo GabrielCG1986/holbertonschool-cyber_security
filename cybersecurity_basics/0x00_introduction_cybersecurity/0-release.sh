@@ -1,2 +1,2 @@
 #!/bin/bash
-lsb_release -i | cut -c 17-
+cat /etc/os-release | grep "^ID=" | sed 's/.*ID=//'
