@@ -1,3 +1,2 @@
 #!/bin/bash
-if [ -n $1 ]; then ps -eo user,pid,ppid,vsz,rss,tty,stat,start,time,"command" | grep -e "^$1"; fi
-
+ps aux | grep -e "^root" | grep -v " 0 *0 "
