@@ -1,2 +1,2 @@
 #!/bin/bash
-lsb_release -i | cut -c 17-22
+lsb_release -i | cut -c 17-
