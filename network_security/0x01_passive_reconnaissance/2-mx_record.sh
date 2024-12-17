@@ -1,2 +1,2 @@
 #!/bin/bash
-nslookup -q=mx "$1" -server 8.8.8.8 
+nslookup -type=mx "$1" 8.8.8.8 
