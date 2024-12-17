@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo -k; sudo ss -ltunp
+sudo -k; sudo netstat -atunp
