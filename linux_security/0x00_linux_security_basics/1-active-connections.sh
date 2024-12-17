@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo -k; sudo ss -tanp
+sudo ss -tanp
