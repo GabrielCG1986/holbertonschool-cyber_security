@@ -1,2 +1,2 @@
 #!/bin/bash
-subfinder -d $1 -nW -oI | awk -F, '{print $1 "," $2}' | tee $1.txt | cut -d',' -f 1
+subfinder -silent -d $1 -o $1.txt -nW -oI | awk -F, '{print $1 "," $2}' > $1.txt | cut -d"," -f 1
