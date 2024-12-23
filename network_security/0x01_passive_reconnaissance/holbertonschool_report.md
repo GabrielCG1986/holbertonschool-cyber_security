@@ -1,4 +1,4 @@
-###curl -H "X-API-Key: 4a38e8a0d59e6be323d3e648eea83fe3165870d081360c588e4340914a90b6d6" https://api.dnsdumpster.com/domain/holbertonschool.com | jq -r '.a[] | "Subdomain: \(.host)\nIp: \(.ips[] |.ip) \nTechnologies: \(.ips[] | {banners: .banners, https: .https}),\n"'
+###curl -H "X-API-Key: " https://api.dnsdumpster.com/domain/holbertonschool.com | jq -r '.a[] | "Subdomain: \(.host)\nIp: \(.ips[] |.ip) \nTechnologies: \(.ips[] | {banners: .banners, https: .https}),\n"'
 
 Subdomain: blog.holbertonschool.com
 Ip: 192.0.78.230 
