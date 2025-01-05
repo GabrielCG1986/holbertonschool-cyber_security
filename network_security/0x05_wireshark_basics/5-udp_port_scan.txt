@@ -1,1 +1,1 @@
-ip.proto == 17
+icmp.type == 3
